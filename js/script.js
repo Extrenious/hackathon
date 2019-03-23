@@ -2,7 +2,22 @@
 
 console.log('hi');
 
-$('h1').click(function(){
-    $('h1').css('color', 'green');
-    $('h1').text('Ready to Code');
+$(".quiz").hide();
+
+$(".result").hide();
+
+
+$(".survey").click(function(){
+   console.log("survey clicked");
+    
+   $(".quiz").show();
+   $(".start").hide();
 });
+    $("#myScore").click(function(){
+   console.log("survey clicked");
+    
+   $(".quiz").hide();
+   $(".start").hide();
+   $(".result").show();
+});
+

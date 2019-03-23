@@ -1,3 +1,173 @@
+/* Button */
+
+
+
+/* ------ */
+
+/* Dropdown */
+
+
+
+/* ------- */
+
+
+.navbar-toggler{
+    text-align: center;
+}
+
 h1 {
-  color: fuchsia;
+ font-family: 'Oswald', sans-serif; 
+ font-size:70px;
+ color: white;
+}
+
+p {
+color: white;
+font-family:Serif;
+font-size:25px;
+margin-top: 20px;
+margin-bottom:0px;
+}
+
+a {
+color: white;    
+}
+
+.btn-btn-primary {
+    color: lightgreen;
+}
+/* About Page */
+body {
+    text-align: center
+}
+
+.col-md-12{
+    background-color:brown;
+}
+
+.Platte{
+  
+    color:#007F10; /*Green*/
+    color:#87FF65; /*Light Green */
+    color:#C98F4C; /*Pastel Brown*/
+    color:#EAE300; /*Light Green */
+    color:#50DAED; /*Sky Blue*/
+    
+}
+
+/* Score Page */
+body {
+    text-align: center
+}
+
+
+.col-xs-1{
+    
+}
+
+.col-xs-2{
+}
+.col-md-1{
+    border: 1px solid red;
+    color:red;
+}
+
+.col-md-2{
+    border: 1px solid orange;
+    color: orange;
+}
+.col-md-3{
+    border: 1px solid yellow;
+    color:yellow;
+}
+
+.col-md-4{
+    border:1px solid green;
+ color:green;
+
+}
+.col-md-5{
+    border:1px solid blue;
+    color:blue;
+    
+}
+
+.col-md-6{
+    border:1px solid purple;
+    color:purple;
+}
+.col-md-7{
+     border:1px solid red;   
+     color:red;
+}
+
+.col-md-8{
+        border:1px solid orange;
+        color:orange;
+}
+.col-md-9{
+        border:1px solid yellow;
+        color:yellow;
+}
+
+.col-md-10{
+        border:1px solid green;
+        color:green;
+}
+.col-md-11{
+        border:1px solid blue;
+        color:blue;
+}
+.col-md-12{    
+    border:1px solid purple;
+    color:purple;
+}
+
+/* Survey Page */
+body {
+    text-align: center;
+    color:green;
+    background-color:#45B39D;
+}
+.custom-select{
+  background-color: lightgreen;
+  color: black;
+  border-radius:20px;
+  font-family:"Noto Serif";
+  width:20%
+
+}
+option {
+  color:black;
+}
+
+body{
+  background-image: url('https://media.giphy.com/media/uvgRKK7Y3s1Xy/giphy.gif');
+background-repeat: no-repeat;
+ background-size: 100%;
+}
+a {
+  /*background-color:lightGreen;*/
+  color:green;
+  /*border:solid 3px lightGreen;*/
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+a {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+select {
+    
+}
+
+.number {
+    color: green;
 }

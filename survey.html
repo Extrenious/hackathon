@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Your CSS Linked Below-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- jQuery Linked Below-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap Javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Your Javascript Linked Below-->
+    <script src="js/script.js" defer></script>
+        <script src="js/survey.js" defer></script>
+
+  </head>
+  <body>
+    <h1>Survey</h1>
+   
+<form> 
+    <p>How many flights have you taken in the past 2 years?</p>
+<select name="flights" id="flight">
+  <option value="0">1-2 times</option>
+  <option value="10">3-4 times</option>
+  <option value="20">5-6 times</option>
+  <option value="25">6 and above</option>
+</select>
+      
+    <p>What is your main form of transport?</p>
+<select name="transport" id="transport">
+  <option value="25">Car</option>
+  <option value="0">Bicycle</option>
+  <option value="20">Motorcycle</option>
+  <option value="10">Public Transportation</option>
+</select>
+
+    <p>When brushing your teeth, do you leave the water running?</p>
+<select name="water" id="water">
+  <option value="25">Yes</option>
+  <option value="0">No</option>
+</select>
+
+    <p>How much time do you spend on electronic devices?</p>
+<select name="electronics" id="electronic">
+  <option value="0">0-30 minutes</option>
+  <option value="10">30-60 miutes</option>
+  <option value="20">1-2 hours</option>
+  <option value="25">3-5 hours</option>
+</select>
+</form>
+
+<div>
+  <br>
+    <a class="btn btn-primary" href="score.html">See Your Score!</a>
+</div>
+
+<br>
+
+<div>
+    <a class="btn btn-primary" href="index.html">End Survey</a>
+</div>
+
+ </body>
+</html>
