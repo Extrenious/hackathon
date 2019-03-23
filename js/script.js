@@ -13,11 +13,5 @@ $(".survey").click(function(){
    $(".quiz").show();
    $(".start").hide();
 });
-    $("#myScore").click(function(){
-   console.log("survey clicked");
-    
-   $(".quiz").hide();
-   $(".start").hide();
-   $(".result").show();
-});
+  
 

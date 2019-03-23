@@ -6,7 +6,7 @@ function getScore(){
     //$("").replaceWith(yourscore);
 console.log("scoresworking");
 //$( "#number" ).html( yourscore );
-$(".result h1").html("Your Carbon Score is " + yourscore);
+$(".result h1").html("Your Carbon Score is " + yourscore + " of 100");
   
 }
 
